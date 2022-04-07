@@ -1,0 +1,21 @@
+// Tokens
+#include <stdio.h>
+int main()
+{
+    int a = 2;
+    double const b =4;
+    float c = 1.5;
+    char d ='A';
+    printf("The Value of a is %d\n",a);
+    printf("The Value of b is %lf\n",b);
+    printf("The Value of c is %.2f\n",c);
+    printf("The Value of d is %c\n",d);
+   
+    return 0;
+}
+
+
+output :- the value of a is 2
+          the value of b is 4.000000
+          the value of c is 1.50
+          the value of d is A
