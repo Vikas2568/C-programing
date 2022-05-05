@@ -10,7 +10,7 @@ int main()
     {
         printf("sum is greater than 20 \n");
     }
-    else if (sum>10)
+        else if (sum>10)
     {
         printf("sum is less than 10  and less than 20 \n");
     }
