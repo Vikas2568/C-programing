@@ -1,12 +1,16 @@
 #include <stdio.h>
-#include <string.h>
+#include<string.h>
 
-int main(){
-    char str[] = "Programming";
-    char str2 []="C-";
-    printf("str = %s,\nstr2 = %s\n",str,str2);
-    strcat(str2,str);
-    printf("The str2 has now become \n%s", str2);
+int main()
+{
+    char strname[30] = "Spoken-Tutorial";
+    printf("The string is %s\n", strname);
+
     return 0;
-    
 }
+
+
+
+
+OUTPUT:
+The string is Spoken-Tutorial
